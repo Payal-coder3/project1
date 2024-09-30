@@ -45,11 +45,7 @@ html, body{
     top: 0%;
     width: 100%;
     height: 50vh;
-
-   /* background:radial-gradient(rgb(172, 170, 170), rgb(43, 42, 42), rgb(221, 220, 220));*/
-   background-color: #fff;
-   /* background: url(./Screenshot\ .png);*/
-
+    background-color: #fff;
     z-index: 9;
     overflow: hidden;
 }
@@ -58,10 +54,7 @@ html, body{
     position: relative;
     width: 100%;
     height: 100vh;
-    /*transform-origin: center;*/
-  
-   background:url(back.jpg.png);
-    /*background: url(https://static.vecteezy.com/system/resources/previews/039/872/020/non_2x/abstract-modern-black-triangular-background-vector.jpg);*/
+    background:url(back.jpg.png);
     overflow: hidden;
 }
 
@@ -71,9 +64,7 @@ html, body{
     bottom: 0;
     width: 100%;
     height: 50vh;
-    /*background:radial-gradient(rgb(172, 170, 170), rgb(43, 42, 42), rgb(221, 220, 220));*/
     background-color: #000000;
-    /*background: url(./Screenshot\ .png);*/
     overflow: hidden;
 }
 
@@ -97,29 +88,15 @@ html, body{
    
 }
 
-/*.content{
-    margin-top: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    color: #fcf8f8;
-    gap: 4vh;
-}*/
 .card{
     height: 600px;
     width:450px;
-   /*background: linear-gradient( rgb(12, 12, 12), rgb(41, 41, 43), rgb(19, 151, 240));*/
     border: 7px  solid rgb(255, 255, 255);
     border-radius: 15px;
     margin-top: 100vh;
     position: relative;
     left: 38%;
     top: 14%;
-   /* align-items: center;
-    justify-content: center;*/
     gap: 4vh;
 }
 .card h4{
@@ -174,88 +151,3 @@ html, body{
      left: 5%;
 }
 
-#about{
-    margin: 5%;
-    height: 55%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-   
-    
-}
-#about h2{
-    padding: 50px;
-    width: 60%;
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: -3px;
-    
-}
-#heroin-img{
-    height: 100%;
-    width: 45%;
-    
-    /*background-image: url("WhatsApp Image 2024-01-15 at 19.13.58_77ffdf7b.png" );
-    image-rendering: optimizeQuality;
-    background-size: cover;*/
-    
-}
-#heroin-img img{
-    height: 100%;
-   /* position: relative;
-    top: 30%;
-    left: 5%;*/
-}
-
-#about-part2 {
-    width: 55%;
-    height: 100%;
-    position: relative;
-    left: 0%;
-
-    
-}
-#about-part2 h3{
-    padding: 0px 0px;
-    font-size:2rem;
-    font-weight: 900;
-}
-
-.page{
-    height:21%;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-}
-.loop{
-    display: flex;
-    position:relative;
-    height: 25%;
-    width: 50%;
-    font-size: 10vh;
-    white-space: nowrap;
-    font-family: gilroy;
-}
-.loop>h1{
-    color: #000000;
-    font-weight: 400;
-    animation-name: anim;
-    animation-duration: 15s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-.loop>h1>span{
-    -webkit-text-stroke: 1.2px #000000;
-    color: transparent;
-    font-weight: 500;
-
-}
-@keyframes anim{
-    0%{
-        transform: translateX(0%);
-    }
-    100%{
-        transform: translateX(-100%);
-    }
-}
